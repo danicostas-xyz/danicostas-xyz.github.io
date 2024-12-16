@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Monda:wght@400..700&family=Russo+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+
+    /* --------- COLORS --------- */
+
+    /* Primary Color Shades */
+    --color-primary-A: #FFFDF2;
+    --color-primary-B: #797977;
+    --color-primary-Base: #1a1a1a;
+    --color-primary-C: #010101;
+    --color-primary-D: #020200;
+
+    /* Secondary Color Shades */
+    --color-secondary-A: #FFFFFF;
+    --color-secondary-B: #FFFFFF;
+    --color-secondary-Base: #F6F4F3;
+    --color-secondary-C: #999390;
+    --color-secondary-D: #806C62;
+
+    /* Accent Color Shades */
+    --color-accent-A: #FFFFFF;
+    --color-accent-B: #99FDBB;
+    --color-accent-Base: #16f962;
+    --color-accent-C: #009733;
+    --color-accent-D: #00240C;
+
+    /* Auxiliary Color Shades */
+    --color-auxiliary-A: #FFFFFF;
+    --color-auxiliary-B: #FB879B;
+    --color-auxiliary-Base: #F21B42;
+    --color-auxiliary-C: #760015;
+    --color-auxiliary-D: #0E0002;
+
+
+    /* --------- COLOR GRADIENTS --------- */
+
+    --color-gradient-overlay: linear-gradient(45deg,
+            #000000ff 0%,
+            #060604ff 14%,
+            #0b0b09dd 29%,
+            #10100fdd 43%,
+            #121211dd 57%,
+            #151514dd 71%,
+            #171717dd 86%,
+            #1a1a1a88 100%);
+    --color-gradient-heading: none;
+    --color-gradient-shine: linear-gradient(90deg,
+            rgba(255, 255, 255, 0.1026611328125) 0%,
+            rgba(255, 255, 255, 0) 10%,
+            rgba(255, 255, 255, 0.4) 50%,
+            rgba(255, 255, 255, 0) 90%,
+            rgba(255, 255, 255, 0.1026611328125) 100%);
+
+    /* --------- TYPEFACES --------- */
+
+    /* Font Properties (Family & Scale) */
+    --font-headings: "Russo One", serif;
+    --font-texts: "Monda", serif;
+
+    --line-height: 1.25;
+
+    --font-size-sm: clamp(0.8rem, 0.13vi + 0.77rem, 0.89rem);
+    /* p.note */
+    --font-size-base: clamp(1rem, 0.27vi + 0.95rem, 1.19rem);
+    /* p */
+    --font-size-md: clamp(1.25rem, 0.47vi + 1.16rem, 1.58rem);
+    /* h5 */
+    --font-size-lg: clamp(1.56rem, 0.77vi + 1.41rem, 2.1rem);
+    /* h4 */
+    --font-size-xl: clamp(1.95rem, 1.2vi + 1.71rem, 2.79rem);
+    /* h3 */
+    --font-size-xxl: clamp(2.44rem, 1.82vi + 2.08rem, 3.72rem);
+    /* h2 */
+    --font-size-xxxl: clamp(3.05rem, 2.7vi + 2.51rem, 4.94rem);
+    /* h1 */
+
+    /* SPACINGS */
+
+    --spacing-xs: 4px;
+    --spacing-sm: 8px;
+    --spacing-md: 16px;
+    --spacing-lg: 24px;
+    --spacing-xl: 32px;
+
+    /* BORDER-RADIUS */
+
+    --border-radius: 20px;
+}
